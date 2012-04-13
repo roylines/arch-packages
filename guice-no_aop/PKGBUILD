@@ -5,6 +5,7 @@ pkgver=3.0
 pkgrel=1
 pkgdesc="a lightweight dependency injection framework for Java, without AOP, suitable for Android"
 arch=('any')
+noextract=('guice-3.0-no_aop.jar')
 
 url="http://http://code.google.com/p/google-guice/"
 license=('Apache')
@@ -12,3 +13,7 @@ license=('Apache')
 source=("guice-3.0-no_aop.jar::http://google-guice.googlecode.com/files/guice-3.0-no_aop.jar")
 md5sums=('aa91894a74392a9f50be44ca185baa12')
 
+package() {
+  cd "${srcdir}"
+  install -Dm644 guice-3.0-no_aop.jar "${pkgdir}/opt/$pkgname/guice-3.0-no_aop.jar"
+}
