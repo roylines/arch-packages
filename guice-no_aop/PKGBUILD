@@ -9,9 +9,6 @@ arch=('any')
 url="http://http://code.google.com/p/google-guice/"
 license=('Apache')
 
-# _sdk=android-sdk
-# _addon="opt/${_sdk}/add-ons"
-
 source=("guice-3.0-no_aop.jar::http://google-guice.googlecode.com/files/guice-3.0-no_aop.jar")
 md5sums=('aa91894a74392a9f50be44ca185baa12')
 
