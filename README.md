@@ -14,4 +14,11 @@ The following packages are installed into /usr/share/java:
 in your Android development experience and makes things simple and fun.
 The following packages are installed into /usr/share/java:
 
-* [roboguice](https://aur.archlinux.org/packages.php?ID=58492) Google Guice on android
+* [roboguice](https://aur.archlinux.org/packages.php?ID=58492) Google Guice on android.
+
+## Robolectric
+[Robolectric](http://pivotal.github.com/robolectric/) a unit test framework that de-fangs the Android SDK jar 
+so you can test-drive the development of your Android app.
+The following packages are installed into /usr/share/java:
+
+* [robolectric](https://aur.archlinux.org/packages.php?ID=58540) Unit test your android application.
