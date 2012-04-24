@@ -2,11 +2,12 @@
 
 pkgname=roboguice
 pkgver=2.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Google Guice on android"
 arch=('any')
 noextract=('${pkgname}-${pkgver}.jar')
 depends=('guice-3.0-no_aop')
+optdepends=('jsr305: support for @Nullable annotation')
 
 url="http://code.google.com/p/roboguice/"
 license=('Apache')
