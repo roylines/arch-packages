@@ -22,3 +22,9 @@ so you can test-drive the development of your Android app.
 The following packages are installed into /usr/share/java:
 
 * [robolectric](https://aur.archlinux.org/packages.php?ID=58540) Unit test your android application.
+
+## jsr305
+[JSR 305](http://code.google.com/p/jsr-305/) annotations for Software Defect Detection in Java.
+The following packages are installed into /usr/share/java:
+
+* [jsr305](https://aur.archlinux.org/packages.php?ID=58769) annotations for Software Defect Detection in Java.
