@@ -2,8 +2,8 @@
 
 pkgname=phonegap
 pkgver=2.2.0
-pkgrel=1
-pkgdesc="Easily create apps with the only free open source framework that supports 7 mobile platforms."
+pkgrel=3
+pkgdesc="Access core functions on Android, iPhone and Blackberry using JavaScript."
 arch=('any')
 
 url="https://github.com/phonegap/phonegap"
