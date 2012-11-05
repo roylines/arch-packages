@@ -8,6 +8,12 @@ The following package is installed into /usr/bin:
 
 * [nave](https://aur.archlinux.org/packages.php?ID=62165).
 
+## Phonegap
+[Phonegap](https://phonegap.com) allows you to access core functions on Android, iPhone and Blackberry using JavaScript.
+The following package is installed into /opt:
+
+* [phonegap](https://aur.archlinux.org/packages/phonegap).
+
 ## Guice
 [Guice](http://code.google.com/p/google-guice/) (pronounced 'juice')
 is a lightweight dependency injection framework for Java 5 and above, brought to you by Google.
