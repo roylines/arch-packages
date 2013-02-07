@@ -41,3 +41,6 @@ The following packages are installed into /usr/share/java:
 The following packages are installed into /usr/share/java:
 
 * [jsr305](https://aur.archlinux.org/packages.php?ID=58769) annotations for Software Defect Detection in Java.
+
+## Notes to self
+* Generate md5sums with > makepkg -g

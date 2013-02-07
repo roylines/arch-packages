@@ -1,8 +1,8 @@
 # Maintainer: Roy Lines <roy@roylines.co.uk>
 
 pkgname=phonegap
-pkgver=2.2.0
-pkgrel=3
+pkgver=2.3.0
+pkgrel=4
 pkgdesc="Access core functions on Android, iPhone and Blackberry using JavaScript."
 arch=('any')
 
@@ -10,7 +10,7 @@ url="https://github.com/phonegap/phonegap"
 license=('MIT')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/phonegap/${pkgname}/tarball/${pkgver}")
 
-md5sums=('ade4f686926443cb0fd8a3e850015fa0')
+md5sums=('d7cff9a842ca8f63b2f4bcd497ae0cb4')
 
 build() {
 	tar -xvzf ${pkgname}-${pkgver}.tar.gz
