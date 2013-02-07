@@ -19,6 +19,6 @@ build() {
 package() {
   cd "$pkgdir"
   mkdir -p opt
-  cp -a "$srcdir/${pkgname}-${pkgname}-8a3aa47" opt/$pkgname
+  cp -a "$srcdir/${pkgname}-${pkgname}-9b13f71" opt/$pkgname
   chmod -R o=g opt/$pkgname
 }
