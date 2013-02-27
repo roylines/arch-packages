@@ -44,3 +44,4 @@ The following packages are installed into /usr/share/java:
 
 ## Notes to self
 * Generate md5sums with > makepkg -g
+* Make package with >  makepkg --source
