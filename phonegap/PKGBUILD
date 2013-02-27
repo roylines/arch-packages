@@ -2,7 +2,7 @@
 
 pkgname=phonegap
 pkgver=2.4.0
-pkgrel=5
+pkgrel=6
 pkgdesc="Access core functions on Android, iPhone and Blackberry using JavaScript."
 arch=('any')
 
@@ -10,7 +10,7 @@ url="https://github.com/phonegap/phonegap"
 license=('MIT')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/phonegap/${pkgname}/tarball/${pkgver}")
 
-md5sums=('bed77ca2ab78219257dc98667427a18a')
+md5sums=('fd82981fd3f88430ea6553ad1f45e6e9')
 
 build() {
 	tar -xvzf ${pkgname}-${pkgver}.tar.gz
